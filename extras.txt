@@ -1,0 +1,17 @@
+ 
+    let image = document.createElement("img")
+    image.src = "https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png"
+    newItem.appendChild(image)
+
+    border-radius: 5px;
+    background-color: #00C896;
+    color: whitesmoke;
+    height: 40px;
+    flex-grow: 4px;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0,0, 0.4);
+    padding: 50px;
