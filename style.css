@@ -85,5 +85,6 @@ input[type=text]:focus {
     padding: 50px;
     font-family: monospace;
     font-size: 15px;
+    overflow: hidden;
 }
 
