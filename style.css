@@ -89,11 +89,9 @@ input[type=text]:focus {
 }
 
 @media (min-width: 576px) { 
-    .title{
-        margin-bottom: 50px;
-    }
 
     .mystyle{
         font-size: 10px;
+        word-wrap: break-word;
     }
  }
