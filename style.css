@@ -92,5 +92,6 @@ input[type=text]:focus {
 
     .mystyle{
         font-size: 10px;
+        flex-grow: 4px;
     }
  }
