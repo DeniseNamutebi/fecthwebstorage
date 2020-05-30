@@ -1,0 +1,89 @@
+body{
+  background-image: url('img/dark-starry-sky-1694000.jpg');
+  background-color: #cccccc;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    text-align: center;
+    padding-bottom:0px;
+    margin: 0;
+}
+
+h1{
+    font-size: 160px;
+    color: black;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color:white;
+    font-family: 'Bungee', cursive;
+    text-shadow: 8px 8px  white;
+}
+
+form {
+    text-align: center;
+  }
+
+#enter{
+    margin-top: -150px;
+    margin-bottom: 210px;
+}
+
+input[type=text] {
+    width: 60%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(232, 225, 248);
+    border-radius: 4px;
+    font-family: monospace;
+  }
+
+  
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+
+  input[type=submit]{
+  background-color: #fa4435; /* Red*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: monospace;
+  }
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.mystyle { 
+    border-radius: 5px;
+    background-color: black;
+    border: 4px solid white;
+    color: whitesmoke;
+    height: 100 px;
+    flex-grow: 4px;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 20px;
+    box-shadow: 6px 6px 0px rgb(255, 255, 255);
+    padding: 50px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
