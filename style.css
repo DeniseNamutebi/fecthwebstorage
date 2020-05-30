@@ -88,3 +88,12 @@ input[type=text]:focus {
     overflow: hidden;
 }
 
+@media (min-width: 576px) { 
+    .title{
+        margin-bottom: 50px;
+    }
+
+    .mystyle{
+        font-size: 10px;
+    }
+ }
