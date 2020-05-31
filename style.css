@@ -34,6 +34,9 @@ form {
     margin-top: -150px;
     margin-bottom: 210px;
 }
+#enter :hover {
+  cursor: pointer;
+}
 
 input[type=text] {
     width: 60%;
@@ -62,8 +65,10 @@ input[type=text]:focus {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 3px;
   font-family: monospace;
+  box-shadow: 2px 5px 0 darkred;
+  font
   }
 
 #list{
@@ -121,6 +126,11 @@ input[type=text]:focus {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    
+  }
+
+  .tooltip:hover {
+    cursor: pointer;
   }
   
   .tooltip .tooltiptext {
@@ -144,6 +154,33 @@ input[type=text]:focus {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+
+/*shake animation from huratips*/
+#spaceship:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+ 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+ 
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+ 
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 
 @media (min-width: 576px) { 
 
