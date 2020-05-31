@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
   background-image: url('./img/dark-starry-sky-1694000.jpg');
   background-color: #cccccc;
@@ -66,6 +70,7 @@ input[type=text]:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 
@@ -87,6 +92,58 @@ input[type=text]:focus {
     font-size: 15px;
     overflow: hidden;
 }
+
+#footer{
+    display: flex;
+    border-top:1px solid whitesmoke;
+    background-color: black;
+    height: 40px;
+    padding-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline red;
+
+}
+
+#footer p{
+    color: black;
+    font-family:  'Bungee', cursive;
+    font-size: 15px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color:white;
+    padding-left: 4px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: red;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: 2px 0;
+    font-family: monospace;
+    font-weight: bold;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 @media (min-width: 576px) { 
 
