@@ -11,6 +11,15 @@ function listOfItems(n){
     })
 }
 
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#list *").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
 function inputFunction(name){
     fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall', {
   method: 'POST',
@@ -22,6 +31,8 @@ function inputFunction(name){
 })
   return false;
 }
+
+
 
 
 

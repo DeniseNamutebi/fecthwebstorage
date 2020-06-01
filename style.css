@@ -71,6 +71,14 @@ input[type=text]:focus {
   font
   }
 
+#search-bar{
+  position: relative;
+  margin-top: -170px;
+  text-align: center;
+  margin-bottom: 210px;
+  padding-right: 80px;
+}
+
 #list{
     display: flex;
     flex-wrap: wrap;
