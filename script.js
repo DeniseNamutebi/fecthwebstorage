@@ -33,6 +33,11 @@ function inputFunction(name){
 }
 
 
+AOS.init({
+  duration : 800,
+})
+
+
 
 
 
