@@ -34,7 +34,7 @@ function inputFunction(name){
 
 
 AOS.init({
-  duration : 800,
+  duration : 900,
 })
 
 
