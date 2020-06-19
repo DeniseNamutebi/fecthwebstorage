@@ -1,0 +1,14 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a test CI script
+      run: echo This first test worked!
+    - name: This is a second test
+      run: The second test worked!
