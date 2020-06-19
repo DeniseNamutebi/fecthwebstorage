@@ -11,4 +11,4 @@ jobs:
     - name: Run a test CI script
       run: echo This first test worked!
     - name: This is a second test
-      run: The second test worked!
+      run: echo The second test worked!
